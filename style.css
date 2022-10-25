@@ -1,0 +1,58 @@
+*{
+margin:0;
+padding:0;
+font-family: sans-serif;
+box-sizing: border-box;  
+} 
+/*The CSS box-sizing property allows us to include the padding and border in an element's total width and height-->*/
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding:5%;
+}
+.head1{
+  margin-left: 50%;
+  font-size: 28px;
+  color: rgb(0, 0, 0);
+}
+.head2{
+    margin-left: 50%;
+    margin-top:2%;
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  h1{
+  text-align: center;
+  font-size: 36px;
+  }
+  p{
+    font-size: 24px;
+    margin-left: 37%;
+    padding:10px;
+  }
